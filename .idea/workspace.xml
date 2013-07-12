@@ -16,7 +16,27 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ef76ef-f28b-43ba-8fd1-98a13ddabc90" name="Default" comment="" />
+    <list default="true" id="09ef76ef-f28b-43ba-8fd1-98a13ddabc90" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/apk/BestPetrolPrices-debug-unaligned.apk" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/drawable-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/drawable-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/drawable-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/drawable-xxhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/BestPetrolPrices.iml" afterPath="$PROJECT_DIR$/BestPetrolPrices/BestPetrolPrices.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPricesProject.iml" afterPath="$PROJECT_DIR$/BestPetrolPricesProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/source/r/debug/org/nando/bestPrices/R.java" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/source/r/debug/org/nando/bestPrices/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build.gradle" afterPath="$PROJECT_DIR$/BestPetrolPrices/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/BestPetrolPrices/build/res/all/debug/values-v14/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="BestPetrolPrices.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +53,38 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/tasks/FetchDataTask.java" line="32" class="org.nando.bestPrices.tasks.FetchDataTask" package="org.nando.bestPrices.tasks">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/tasks/FetchDataTask.java" line="41" class="org.nando.bestPrices.tasks.FetchDataTask" package="org.nando.bestPrices.tasks">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -70,38 +121,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/tasks/FetchDataTask.java" line="32" class="org.nando.bestPrices.tasks.FetchDataTask" package="org.nando.bestPrices.tasks">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/tasks/FetchDataTask.java" line="41" class="org.nando.bestPrices.tasks.FetchDataTask" package="org.nando.bestPrices.tasks">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -111,10 +131,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BestPetrolPrices/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="41" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="24" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.4176334" vertical-offset="0" max-vertical-offset="862">
               <folding />
             </state>
           </provider>
@@ -123,7 +143,7 @@
       <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="66" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="9" column="66" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -144,7 +164,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="40" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="945">
+            <state line="50" column="40" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1155">
               <folding />
             </state>
           </provider>
@@ -153,23 +173,17 @@
       <file leaf-file-name="StableArrayAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/adapters/StableArrayAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#376#400#0" expanded="true" />
-              </folding>
+            <state line="29" column="20" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="585">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FetchDataTask.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FetchDataTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/tasks/FetchDataTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="65" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.67368424" vertical-offset="261" max-vertical-offset="1215">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#968#983#0" expanded="true" />
-              </folding>
+            <state line="24" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1215">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,7 +191,7 @@
       <file leaf-file-name="PetrolStation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/pojo/PetrolStation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="18" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -186,11 +200,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="66" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="e#481#499#0" expanded="true" />
-                <element signature="e#647#665#0" expanded="true" />
-              </folding>
+            <state line="5" column="66" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,36 +213,53 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
     <option name="availableProjects">
       <map>
         <entry>
           <key>
             <ExternalProjectPojo>
               <option name="name" value="BestPetrolPricesProject" />
-              <option name="path" value="$PROJECT_DIR$/build.gradle" />
+              <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
                 <option name="name" value="BestPetrolPrices" />
-                <option name="path" value="$PROJECT_DIR$/BestPetrolPrices/build.gradle" />
+                <option name="path" value="$PROJECT_DIR$/BestPetrolPrices" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="BestPetrolPricesProject" />
-                <option name="path" value="$PROJECT_DIR$/build.gradle" />
+                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
           </value>
         </entry>
       </map>
     </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1373371481000" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/BestPetrolPrices/build.gradle" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/BestPetrolPrices/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/BestPetrolPrices/src/main/res/layout/activity_main.xml" />
@@ -239,16 +267,18 @@
         <option value="$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/MainActivity.java" />
         <option value="$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/pojo/PetrolStation.java" />
         <option value="$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/tasks/FetchDataTask.java" />
+        <option value="$PROJECT_DIR$/BestPetrolPrices/build.gradle" />
+        <option value="$PROJECT_DIR$/BestPetrolPricesProject.iml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="27" />
+    <option name="x" value="202" />
+    <option name="y" value="22" />
     <option name="width" value="1197" />
     <option name="height" value="1010" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -274,6 +304,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -536,7 +567,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -546,7 +576,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/BestPetrolPrices/libs/jsoup-1.7.2.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -554,11 +584,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="GalaxyNexus" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.BestPetrolPrices">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -686,6 +716,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="09ef76ef-f28b-43ba-8fd1-98a13ddabc90" name="Default" comment="" />
@@ -695,33 +742,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="27" width="1197" height="1010" extended-state="0" />
-    <editor active="true" />
+    <frame x="202" y="22" width="1197" height="1010" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36252546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280899" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24934839" sideWeight="0.6719101" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280899" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280899" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -785,9 +832,47 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/build.gradle">
+    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="50" column="40" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/adapters/StableArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/tasks/FetchDataTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/pojo/PetrolStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="66" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
@@ -796,16 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="66" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="e#481#499#0" expanded="true" />
-            <element signature="e#647#665#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,20 +911,42 @@
     <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/adapters/StableArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="20" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#376#400#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/java/org/nando/bestPrices/tasks/FetchDataTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="65" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.67368424" vertical-offset="261" max-vertical-offset="1215">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#968#983#0" expanded="true" />
-          </folding>
+        <state line="24" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="66" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestPetrolPricesProject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.2088167" vertical-offset="0" max-vertical-offset="862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/BestPetrolPrices.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="12" selection-start="936" selection-end="936" vertical-scroll-proportion="0.017401392" vertical-offset="255" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestPetrolPrices/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.4176334" vertical-offset="0" max-vertical-offset="862">
+          <folding />
         </state>
       </provider>
     </entry>
