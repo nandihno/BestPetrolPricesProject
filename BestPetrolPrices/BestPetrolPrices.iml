@@ -78,6 +78,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="jsoup-1.7.2" level="project" />
+    <orderEntry type="library" exported="" name="google-play-services" level="project" />
   </component>
 </module>
 

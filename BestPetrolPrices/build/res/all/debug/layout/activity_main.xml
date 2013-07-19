@@ -13,19 +13,18 @@
             android:layout_height="wrap_content"
             android:text="Search"
             android:id="@+id/button"
-            android:layout_marginRight="31dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="14dp"
             android:onClick="fetchData"
             android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"/>
+            android:layout_toRightOf="@+id/nearestPetrolButton"/>
 
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/editText"
             android:layout_alignBottom="@+id/button"
-            android:layout_toLeftOf="@+id/button"
-            android:layout_alignLeft="@+id/listView"/>
+            android:layout_alignLeft="@+id/listView"
+            android:layout_toLeftOf="@+id/button"/>
 
     <TextView
             android:layout_width="match_parent"
@@ -35,14 +34,25 @@
             android:layout_below="@+id/editText"
             android:layout_alignLeft="@+id/editText"/>
 
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nearest Petrol"
+            android:id="@+id/nearestPetrolButton"
+            android:layout_below="@+id/errorMessage"
+            android:layout_centerHorizontal="true"
+            android:onClick="pressNearMeButton"/>
+
     <ListView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/listView"
-            android:layout_below="@+id/errorMessage"
+            android:layout_below="@+id/nearestPetrolButton"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="13dp"
             android:layout_marginTop="31dp"/>
 
+
+
 </RelativeLayout>
-<!-- From: /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/src/main/res/layout/activity_main.xml -->

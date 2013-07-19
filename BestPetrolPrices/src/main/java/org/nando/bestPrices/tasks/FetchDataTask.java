@@ -15,6 +15,8 @@ import org.jsoup.select.Elements;
 import org.nando.bestPrices.MainActivity;
 import org.nando.bestPrices.pojo.PetrolStation;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 

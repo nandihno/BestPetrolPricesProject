@@ -1,13 +1,13 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1373622185000 356 0226f6728eb8323c66a6c2f6eda9f0ce120854bf /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/values-v14/values.xml
-1373622185000 1198 cf71736996aba714703739cfca52eb9b030db8a7 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/values/values.xml
-1373622185000 370 1e85118679ec26ba679f4a906f62f4e65e1ca66a /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/menu/main.xml
-1373622185000 2033 0ac4ad082ec7a942b46fb3ee4d6829d4368846fe /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/layout/activity_main.xml
-1373622185000 6657 60b07cee6f3f953a7f24f8fe1a7e4e94fc7fcc0b /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
-1373622185000 4149 80f125999e33ff93d403aa706613d68a4b49d256 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/drawable-xhdpi/ic_launcher.png
-1373622185000 273 2eeeb9f5689ed00ee8aadd0e79b8d77e567bbe8e /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/values-sw720dp-land/values.xml
-1373622185000 1962 a81f46b28b52861dc024de6fb5ad9a8c193fca57 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/drawable-mdpi/ic_launcher.png
-1373622185000 342 b791213794869262072facb24489374b4ee17908 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/values-v11/values.xml
-1373622185000 2994 038f9ce53dbb3f241c93f42b858ddedae7475b6b /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1374259431000 361 3ad0a9d431d7a438e0a9578808f1ad1faf2258e9 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/values-v14/values.xml
+1374259431000 1213 76e578fdd7b29f054f06a88e1b24dc6b3adef71d /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/values/values.xml
+1374259431000 375 6654d824407443d149eaca7de22d44550cd81c8c /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/menu/main.xml
+1374259431000 2370 e211225e058451abf33966eacc9009c8399085c3 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/layout/activity_main.xml
+1374259431000 6657 60b07cee6f3f953a7f24f8fe1a7e4e94fc7fcc0b /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1374259431000 4149 80f125999e33ff93d403aa706613d68a4b49d256 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1374259431000 278 89e3b8cfdb6c253316eb1ccf815adef76ad3f748 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/values-sw720dp-land/values.xml
+1374259431000 1962 a81f46b28b52861dc024de6fb5ad9a8c193fca57 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1374259431000 347 fdd29289dd664db45d7e074010e1fe90297872b3 /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/values-v11/values.xml
+1374259431000 2994 038f9ce53dbb3f241c93f42b858ddedae7475b6b /Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/build/res/all/debug/drawable-hdpi/ic_launcher.png
