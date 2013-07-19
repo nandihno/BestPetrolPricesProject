@@ -57,6 +57,7 @@ public class MainActivity extends Activity implements GooglePlayServicesClient.C
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 pojo = (PetrolStation) adapterView.getItemAtPosition(i);
                 String address = pojo.address;
+                String name = pojo.brand;
                 Uri uri = Uri.parse("geo:0,0?q="+address);
                 Intent sendIntent = new Intent(Intent.ACTION_VIEW,uri);
                 startActivity(sendIntent);
