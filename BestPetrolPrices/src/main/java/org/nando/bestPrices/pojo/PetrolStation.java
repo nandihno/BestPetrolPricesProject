@@ -13,6 +13,6 @@ public class PetrolStation {
 
     @Override
     public String toString() {
-        return brand +"\n Price: "+price+ " \n Address:"+address;
+        return brand +"\n Price: "+price+"\n Time:"+collectionTime;
     }
 }
