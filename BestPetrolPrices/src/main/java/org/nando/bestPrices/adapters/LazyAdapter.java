@@ -5,6 +5,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
@@ -18,17 +19,21 @@ import java.util.List;
 /**
  * Created by fernandoMac on 8/08/13.
  */
-public class LazyAdapter extends BaseAdapter{
+public class LazyAdapter extends ArrayAdapter<PetrolStation> {
 
-    private Activity activity;
+
     private List<PetrolStation> data = new ArrayList<PetrolStation>();
     private static LayoutInflater inflater = null;
+    HashMap<PetrolStation,Integer> map = new HashMap<PetrolStation, Integer>();
 
 
-    public LazyAdapter(Activity a, List<PetrolStation> list) {
-        activity = a;
+    public LazyAdapter(Context context, int textViewResourceId,List<PetrolStation> list) {
+        super(context,textViewResourceId,list);
         data = list;
-        inflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        for(int i =0; i  < list.size(); i++) {
+            map.put(list.get(i),i);
+        }
 
     }
 
@@ -38,14 +43,15 @@ public class LazyAdapter extends BaseAdapter{
        return data.size();
     }
 
-    @Override
-    public Object getItem(int i) {
-        return i;
+    public boolean hasStableIds() {
+        return true;
+
     }
 
     @Override
-    public long getItemId(int i) {
-      return i;
+    public long getItemId(int position) {
+        PetrolStation pojo = getItem(position);
+        return map.get(pojo);
     }
 
     @Override

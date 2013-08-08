@@ -50,7 +50,11 @@
             android:layout_below="@+id/nearestPetrolButton"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="13dp"
-            android:layout_marginTop="31dp"/>
+            android:layout_marginTop="31dp"
+            android:divider="#b5b5b5"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_selector"
+            android:layout_alignParentBottom="true"/>
 
 
 

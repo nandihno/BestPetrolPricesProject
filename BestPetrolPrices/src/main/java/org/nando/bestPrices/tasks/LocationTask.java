@@ -31,7 +31,9 @@ public class LocationTask extends AsyncTask<Location,Void,LocationPojo> {
             addresses = geocoder.getFromLocation(locations[0].getLatitude(),locations[0].getLongitude(),1);
 
         } catch (Exception e) {
-            myActivity.handleErrorMessage(e.getMessage());
+
+
+            //myActivity.handleErrorMessage(e.getMessage());
             e.printStackTrace();
         }
         if(addresses != null && addresses.size() > 0) {

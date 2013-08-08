@@ -7,7 +7,7 @@
                 android:padding="5dip" >
 
     <!--  ListRow Left sied Thumbnail image -->
-    <LinearLayout android:id="@+id/thumbnail"
+   <!-- <LinearLayout android:id="@+id/thumbnail"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:padding="3dip"
@@ -15,13 +15,13 @@
                   android:background="@drawable/image_bg"
                   android:layout_marginRight="5dip">
 
-      <!--  <ImageView
+        <ImageView
                 android:id="@+id/list_image"
                 android:layout_width="50dip"
                 android:layout_height="50dip"
-                android:src="@drawable/rihanna"/> -->
+                android:src="@drawable/rihanna"/>
 
-    </LinearLayout>
+    </LinearLayout> -->
 
     <!-- Title Of Song-->
     <TextView
@@ -68,8 +68,7 @@
             android:layout_alignTop="@+id/brand"
             android:gravity="right"
             android:text="1.56"
-            android:layout_marginRight="10dip"
-            android:textSize="30dip"
+            android:textSize="25dip"
             android:textColor="#10bcc9"
             android:textStyle="bold"/>
 

@@ -43,7 +43,7 @@ public class MainActivity extends Activity implements GooglePlayServicesClient.C
     private Location location;
     private LocationClient locationClient;
 
-    private List<PetrolStation> globalList = null;
+
 
 
 
@@ -58,21 +58,11 @@ public class MainActivity extends Activity implements GooglePlayServicesClient.C
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Integer index = (Integer)  adapterView.getItemAtPosition(i);
-                System.out.println(index);
-                if(globalList != null) {
-                    PetrolStation pojo = globalList.get(index);
-                    String address = pojo.address;
-                    String name = pojo.brand;
-                    Uri uri = Uri.parse("geo:0,0?q="+address);
-                    Intent sendIntent = new Intent(Intent.ACTION_VIEW,uri);
-                    startActivity(sendIntent);
-                }
-                /*String address = pojo.address;
-                String name = pojo.brand;
+                PetrolStation pojo = (PetrolStation) adapterView.getItemAtPosition(i);
+                String address = pojo.address;
                 Uri uri = Uri.parse("geo:0,0?q="+address);
                 Intent sendIntent = new Intent(Intent.ACTION_VIEW,uri);
-                startActivity(sendIntent);*/
+                startActivity(sendIntent);
             }
         });
     }
@@ -130,10 +120,7 @@ public class MainActivity extends Activity implements GooglePlayServicesClient.C
 
     public void placeResults(List<PetrolStation> list) {
         if(list != null) {
-            globalList = null;
-            globalList = list;
-           // StableArrayAdapter adapter = new StableArrayAdapter(this,android.R.layout.simple_list_item_1,list);
-            LazyAdapter adapter = new LazyAdapter(this,list);
+            LazyAdapter adapter = new LazyAdapter(this,android.R.layout.simple_list_item_1,list);
             listView.setAdapter(adapter);
 
         }
