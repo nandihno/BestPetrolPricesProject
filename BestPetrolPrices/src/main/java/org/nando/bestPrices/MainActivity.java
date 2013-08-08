@@ -1,5 +1,6 @@
 package org.nando.bestPrices;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.location.Location;
@@ -13,6 +14,7 @@ import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
@@ -88,11 +90,19 @@ public class MainActivity extends Activity implements GooglePlayServicesClient.C
 
     public void fetchData(View view) {
         String location = editText.getText().toString();
-        String url = prepareUrl(location);
-        errorMessage.setText("");
-        listView.setAdapter(null);
-        FetchDataTask task = new FetchDataTask(this);
-        task.execute(url);
+        if(location == null || location.isEmpty()) {
+            String text = "Please make sure to put a postcode or suburb name";
+            int duration = Toast.LENGTH_SHORT;
+            Toast toast = Toast.makeText(getApplicationContext(),text,duration);
+            toast.show();
+        }
+        else {
+            String url = prepareUrl(location);
+            errorMessage.setText("");
+            listView.setAdapter(null);
+            FetchDataTask task = new FetchDataTask(this);
+            task.execute(url);
+        }
     }
 
     public void pressNearMeButton(View view) {

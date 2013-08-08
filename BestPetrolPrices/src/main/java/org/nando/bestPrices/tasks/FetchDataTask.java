@@ -71,7 +71,12 @@ public class FetchDataTask extends AsyncTask<String,Void,List<PetrolStation>> {
     }
 
     protected void onPostExecute(List<PetrolStation> list) {
-        this.mainActivity.placeResults(list);
+        if(list != null) {
+            this.mainActivity.placeResults(list);
+        }
+        else {
+            mainActivity.handleErrorMessage("Please enter data");
+        }
     }
 
 }
