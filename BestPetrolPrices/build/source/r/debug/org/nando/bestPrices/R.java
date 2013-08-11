@@ -25,21 +25,33 @@ public final class R {
         public static final int list_selector=0x7f020004;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000a;
-        public static final int address=0x7f080007;
-        public static final int brand=0x7f080005;
-        public static final int button=0x7f080000;
-        public static final int collectionTime=0x7f080008;
+        public static final int action_settings=0x7f080012;
+        public static final int address=0x7f08000f;
+        public static final int brand=0x7f08000d;
+        public static final int collectionTime=0x7f080010;
         public static final int editText=0x7f080002;
         public static final int errorMessage=0x7f080004;
         public static final int listView=0x7f080003;
         public static final int nearestPetrolButton=0x7f080001;
-        public static final int price=0x7f080009;
-        public static final int thumbnail=0x7f080006;
+        public static final int nearestPetrolButtonDiesel=0x7f080006;
+        public static final int nearestPetrolButtonE10=0x7f080008;
+        public static final int nearestPetrolButtonUnleaded=0x7f08000c;
+        public static final int pager=0x7f080009;
+        public static final int pager_title_strip=0x7f08000a;
+        public static final int price=0x7f080011;
+        public static final int searchButton=0x7f080000;
+        public static final int searchButtonDiesel=0x7f080005;
+        public static final int searchButtonE10=0x7f080007;
+        public static final int searchButtonUnleaded=0x7f08000b;
+        public static final int thumbnail=0x7f08000e;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int list_row=0x7f030001;
+        public static final int activity_95=0x7f030000;
+        public static final int activity_diesel=0x7f030001;
+        public static final int activity_e10=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int activity_unleaded=0x7f030004;
+        public static final int list_row=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f070000;

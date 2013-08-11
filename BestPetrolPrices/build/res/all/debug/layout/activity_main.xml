@@ -1,62 +1,23 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:tools="http://schemas.android.com/tools"
+                                   android:id="@+id/pager"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   tools:context=".MainActivity" >
 
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Search"
-            android:id="@+id/button"
-            android:layout_marginTop="14dp"
-            android:onClick="fetchData"
-            android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/nearestPetrolButton"/>
+    <!--
+    This title strip will display the currently visible page title, as well as the page
+    titles for adjacent pages.
+    -->
 
-    <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText"
-            android:layout_alignBottom="@+id/button"
-            android:layout_alignLeft="@+id/listView"
-            android:layout_toLeftOf="@+id/button"/>
-
-    <TextView
+    <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/pager_title_strip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:id="@+id/errorMessage"
-            android:layout_below="@+id/editText"
-            android:layout_alignLeft="@+id/editText"/>
+            android:layout_gravity="top"
+            android:background="#33b5e5"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="#fff" />
 
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nearest Petrol"
-            android:id="@+id/nearestPetrolButton"
-            android:layout_below="@+id/errorMessage"
-            android:layout_centerHorizontal="true"
-            android:onClick="pressNearMeButton"/>
-
-    <ListView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/listView"
-            android:layout_below="@+id/nearestPetrolButton"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="13dp"
-            android:layout_marginTop="31dp"
-            android:divider="#b5b5b5"
-            android:dividerHeight="1dp"
-            android:listSelector="@drawable/list_selector"
-            android:layout_alignParentBottom="true"/>
-
-
-
-</RelativeLayout>
-<!-- From: file:/Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/src/main/res/layout/activity_main.xml -->
+</android.support.v4.view.ViewPager><!-- From: file:/Users/fernandoMac/developer/java/workspace/BestPetrolPricesProject/BestPetrolPrices/src/main/res/layout/activity_main.xml -->

@@ -12,6 +12,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.nando.bestPrices.BaseActivityFragment;
 import org.nando.bestPrices.MainActivity;
 import org.nando.bestPrices.pojo.PetrolStation;
 
@@ -25,9 +26,9 @@ import java.util.List;
  */
 public class FetchDataTask extends AsyncTask<String,Void,List<PetrolStation>> {
 
-    private MainActivity mainActivity;
+    private BaseActivityFragment mainActivity;
 
-    public FetchDataTask(MainActivity anActivity) {
+    public FetchDataTask(BaseActivityFragment anActivity) {
         mainActivity = anActivity;
     }
 

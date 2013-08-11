@@ -5,6 +5,7 @@ import android.location.Geocoder;
 import android.location.Location;
 import android.os.AsyncTask;
 
+import org.nando.bestPrices.BaseActivityFragment;
 import org.nando.bestPrices.MainActivity;
 import org.nando.bestPrices.pojo.LocationPojo;
 
@@ -16,16 +17,16 @@ import java.util.Locale;
  */
 public class LocationTask extends AsyncTask<Location,Void,LocationPojo> {
 
-    private MainActivity myActivity;
+    private BaseActivityFragment myActivity;
 
-    public LocationTask(MainActivity activity) {
+    public LocationTask(BaseActivityFragment activity) {
         this.myActivity = activity;
     }
 
     @Override
     protected LocationPojo doInBackground(Location... locations) {
         LocationPojo pojo = new LocationPojo();
-        Geocoder geocoder = new Geocoder(myActivity, Locale.getDefault());
+        Geocoder geocoder = new Geocoder(myActivity.getActivity(), Locale.getDefault());
         List<Address> addresses = null;
         try {
             addresses = geocoder.getFromLocation(locations[0].getLatitude(),locations[0].getLongitude(),1);
